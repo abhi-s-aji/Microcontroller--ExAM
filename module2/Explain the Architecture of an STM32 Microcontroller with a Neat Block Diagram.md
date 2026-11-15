@@ -247,3 +247,96 @@ Remember: **A-T-C**
 12. **UART, SPI, I²C, CAN** provide communication.
 
 **Exam Tip:** For a 7-mark answer, prioritize the definition, neat block diagram, explanation of the five major architectural blocks, and key features. Include applications and the conclusion if space permits.
+
+
+
+
+# STM32 Architecture – Easy Mnemonics
+
+## 1. Main Architectural Blocks
+
+**Mnemonic: "Please Bring My Study Papers"**
+
+**P – B – M – S – P**
+
+| Letter | Architecture Block | Key Points |
+|---|---|---|
+| P | Processor Core | CPU – Brain |
+| B | Bus System | AHB / APB – Connection |
+| M | Memory | Flash / SRAM – Storage |
+| S | System Control | GPIO, DMA, RCC, NVIC, PWR |
+| P | Peripherals | ADC, DAC, Timers, Communication |
+
+## 2. System Control Components
+
+**Mnemonic: "Good Drivers Remember New Powers"**
+
+**G – D – R – N – P**
+
+- **G** – GPIO (General Purpose Input/Output)
+- **D** – DMA (Direct Memory Access)
+- **R** – RCC (Reset and Clock Control)
+- **N** – NVIC (Nested Vectored Interrupt Controller)
+- **P** – PWR (Power Controller)
+
+## 3. On-Chip Peripherals
+
+**Mnemonic: "A T C"**
+
+- **A – Analog Interfaces**
+  - ADC
+  - DAC
+  - Comparator
+
+- **T – Timers**
+  - General-purpose Timers
+  - RTC
+  - SysTick
+  - Watchdog
+
+- **C – Communication Interfaces**
+  - USART / UART
+  - SPI
+  - I²C
+  - CAN / FDCAN
+  - USB
+  - Ethernet
+
+## 4. Key Architectural Features and Advantages
+
+**Mnemonic: "Please Find Data, Low Heat"**
+
+**P – F – D – L – H**
+
+- **P** – Processing Performance
+- **F** – Fast Interrupt Handling
+- **D** – DMA Efficiency
+- **L** – Low Power Consumption
+- **H** – High Integration
+
+## 5. Applications
+
+**Mnemonic: "I Invest And Manufacture"**
+
+**I – I – A – M**
+
+- **I** – Industrial Automation
+- **I** – Internet of Things (IoT)
+- **A** – Automotive Systems
+- **M** – Medical Electronics
+
+---
+
+## Quick Revision
+
+| Topic | Mnemonic |
+|---|---|
+| Main Architecture | Please Bring My Study Papers |
+| System Control | Good Drivers Remember New Powers |
+| On-Chip Peripherals | A T C |
+| Advantages | Please Find Data, Low Heat |
+| Applications | I Invest And Manufacture |
+
+**Remember the sequence:**
+
+`P-B-M-S-P → G-D-R-N-P → A-T-C → P-F-D-L-H → I-I-A-M`
